@@ -2,11 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://github.com/mmulhearn/bug-report-4307</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/mmulhearn/bug-report-4307</RepositoryUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/mmulhearn/hello-world</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mmulhearn/hello-world</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageId>mmulhearn-Nuget</PackageId>
+    <Authors>mmulhearn</Authors>
   </PropertyGroup>
 
 </Project>
