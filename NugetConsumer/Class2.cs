@@ -1,4 +1,4 @@
-﻿using Nuget;
+﻿using hello_world_nuget;
 
 namespace NugetConsumer
 {
@@ -6,7 +6,7 @@ namespace NugetConsumer
     {
         public Class2()
         {
-            var x = new Class1();
+            var x = new SomeClass();
         }
     }
 }
