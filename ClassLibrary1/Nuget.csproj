@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/mmulhearn/bug-report-4307</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mmulhearn/bug-report-4307</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageId>mmulhearn-Nuget</PackageId>
+  </PropertyGroup>
+
+</Project>
