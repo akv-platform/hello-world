@@ -19,7 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      NUGET_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      #NUGET_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      NUGET_TOKEN:${{secrets.GHP_RW}}
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
