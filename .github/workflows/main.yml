@@ -34,6 +34,10 @@ jobs:
           source-url: https://nuget.pkg.github.com/mmulhearn/index.json
         env:
           NUGET_AUTH_TOKEN: ${{env.NUGET_TOKEN}}
+
+      - name: nuget sources
+        run: |
+          cat ../nuget.config || echo no nuget.config
           
       - name: Build
         run: dotnet build -c Release
